@@ -1,0 +1,41 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header div,
+header ul{
+    width: 50%;
+}
+
+header{
+    display: flex!important;
+    align-items: stretch!important;
+    justify-content: center!important;
+    padding: 0 1em!important;
+}
+
+header div,
+header li{
+    display: inline-flex!important;
+
+}
+header svg{
+    margin: auto;
+    padding: 1em!important;
+    max-height: 5em;
+}
+
+header li{
+    padding-left: 1em!important;
+    margin: auto 0!important;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+header .logo p:last-child{
+    margin: auto 0;
+}
